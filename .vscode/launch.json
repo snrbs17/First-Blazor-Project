@@ -10,9 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/BlazorServerTest1/bin/Debug/netcoreapp3.1/BlazorServerTest1.dll",
+            //  "program": "${workspaceFolder}/BlazorServerTest1/bin/Debug/netcoreapp3.1/BlazorServerTest1.dll",
+             "program": "${workspaceFolder}/database/bin/Debug/netcoreapp3.1/database.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/BlazorServerTest1",
+            // "cwd": "${workspaceFolder}/BlazorServerTest1",
+             "cwd": "${workspaceFolder}/database",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

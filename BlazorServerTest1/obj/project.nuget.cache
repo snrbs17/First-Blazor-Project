@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jyYEOWh5XmbJS2ETkxVt/n9xc7dij/Lmbvf17reIW4gphKjxI6WEo4+M1WLu4tlTr1wcC6YsUFUX3tpSwsHEHg==",
+  "dgSpecHash": "a1m87XmHmmLmp3/DSle1QLV9kPhBqCMR8mqztOhgCBSmk7DDgj9J3L4qRc8nLIgWJsAgUEDJAFiU6DkCOx5wCg==",
   "success": true,
   "projectFilePath": "/home/ljh/CSharp/Blazor/BlazorServerTest1/BlazorServerTest1.csproj",
   "expectedPackageFiles": [
@@ -31,8 +31,10 @@
     "/home/ljh/.nuget/packages/syncfusion.ej2.aspnet.core/18.4.0.42/syncfusion.ej2.aspnet.core.18.4.0.42.nupkg.sha512",
     "/home/ljh/.nuget/packages/syncfusion.licensing/18.4.0.42/syncfusion.licensing.18.4.0.42.nupkg.sha512",
     "/home/ljh/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/home/ljh/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
     "/home/ljh/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
-    "/home/ljh/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/home/ljh/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/home/ljh/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

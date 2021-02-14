@@ -5,5 +5,10 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="18.4.0.42"/>
     <PackageReference Include="Syncfusion.Blazor" Version="18.1.0.36-beta"/>
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0"/>
+    <!-- <PackageReference Include="database"/> -->
+    <Reference Include="database">
+      <HintPath>../database/bin/Debug/netcoreapp3.1/database.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
