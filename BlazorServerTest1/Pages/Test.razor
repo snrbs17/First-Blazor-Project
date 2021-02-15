@@ -2,5 +2,23 @@
 
 @using Syncfusion.Blazor
 @using Syncfusion.Blazor.Charts
+@using database.Daos
+@using database.Models
 
-<SfChart Width="40%"></SfChart>
+
+<SfChart Width="40%">
+    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
+    <ChartSeriesCollection>
+        <ChartSeries DataSource="@list"XName="FirstName"YName="Id"Type="ChartSeriesType.Column">
+        </ChartSeries>
+    </ChartSeriesCollection>
+</SfChart>
+
+@code
+{
+    private List<Customers> list = new List<Customers>();
+    protected override async Task OnInitializedAsync()
+        {
+            list = await Dao.customerDao.GetCustomersAsync();
+        }
+}   
