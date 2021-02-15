@@ -7,8 +7,8 @@
     <PackageReference Include="Syncfusion.Blazor" Version="18.1.0.36-beta"/>
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0"/>
     <!-- <PackageReference Include="database"/> -->
-    <Reference Include="database">
-      <HintPath>../database/bin/Debug/netcoreapp3.1/database.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\database\database.csproj"/>
+      <!-- <HintPath>../database/bin/Debug/netcoreapp3.1/database.dll</HintPath> -->
+    <!-- </Reference> -->
   </ItemGroup>
 </Project>

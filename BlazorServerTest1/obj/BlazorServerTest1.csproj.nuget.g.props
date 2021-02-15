@@ -27,4 +27,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)syncfusion.blazor/18.1.0.36-beta/buildTransitive/Syncfusion.Blazor.props" Condition="Exists('$(NuGetPackageRoot)syncfusion.blazor/18.1.0.36-beta/buildTransitive/Syncfusion.Blazor.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/home/ljh/.nuget/packages/microsoft.entityframeworkcore.tools/5.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+  </PropertyGroup>
 </Project>

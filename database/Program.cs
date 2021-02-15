@@ -9,9 +9,9 @@ namespace database
             Console.WriteLine("Hello World!");
         }
     }
-    public class Test
+    public class TestClass
     {
-        public void function()
+        public void Asdf()
         {
             Console.WriteLine("asdf");
         }
